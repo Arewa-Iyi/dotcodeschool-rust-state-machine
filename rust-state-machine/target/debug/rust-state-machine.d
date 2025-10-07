@@ -1,0 +1,1 @@
+C:\Users\arewa\OneDrive\Documents\Neural\ Transformers\PBAX\dotcodeschool-rust-state-machine\rust-state-machine\target\debug\rust-state-machine.exe: C:\Users\arewa\OneDrive\Documents\Neural\ Transformers\PBAX\dotcodeschool-rust-state-machine\rust-state-machine\src\main.rs
