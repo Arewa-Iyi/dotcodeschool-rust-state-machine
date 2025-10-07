@@ -9,11 +9,11 @@ impl Pallet {
         }
     }
 
-    // pub fn set_balance(&mut self, account: String, amount: u128) {
-    //     self.balances.insert(account, amount);
-    // }
+    pub fn set_balance(&mut self, who: &String, amount: u128) {
+        self.balances.insert(who.clone(), amount);
+    }
 
-    // pub fn get_balance(&self, account: &String) -> Option<&u128> {
-    //     self.balances.get(account)
-    // }
+    pub fn get_balance(&self, who: &String) -> u128 {
+        *self.balances.get(who).unwrap_or(&0)
+    }
 }
